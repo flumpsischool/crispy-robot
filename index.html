@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Transfer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="phone blue">
+            <div>Battery: <span id="blueBattery">100%</span></div>
+            <button onclick="sendBattery()">Send 20% to Pink</button>
+        </div>
+        <div class="phone pink">
+            <div>Battery: <span id="pinkBattery">5%</span></div>
+            <button onclick="receiveBattery()">Receive 20% from Blue</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
